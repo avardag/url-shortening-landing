@@ -53,7 +53,7 @@ class Storage {
   }
 }
 const storage = new Storage();
-
+// storage.clearStorage();
 //Func to call API to shorten a link
 const fetchUrl = async (url) => {
   try {
@@ -76,8 +76,8 @@ const renderLinkContainer = ({ full_short_link, original_link }) => {
   return `
   <div class="link-container" data-link=${full_short_link}>
   <div class="ready-link">
-    <span class="original-link">${original_link}</span>
-    <span class="shortened-link">${full_short_link}</span>
+    <div class="original-link">${original_link}</div>
+    <div class="shortened-link">${full_short_link}</div>
   </div>
   <div class="copy-btn-container">
     <input type="submit" class="btn contained copy-btn" value="Copy"> 
