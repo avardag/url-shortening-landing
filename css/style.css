@@ -310,7 +310,7 @@ p {
 .hero__image {
   height: 100%;
   width: 100%;
-  background: url("./images/illustration-working.svg");
+  background: url("images/illustration-working.svg");
   /* background-position: calc(100% + 100px) 60%; */
   background-position: calc(100% + 100px) 40%;
   background-size: 105%;
@@ -380,7 +380,7 @@ p {
   display: flex;
   padding: 3rem;
   border-radius: 10px;
-  background: center no-repeat url("./images/bg-shorten-desktop.svg"),
+  background: center no-repeat url("images/bg-shorten-desktop.svg"),
     var(--Primary-Dark-Violet);
   background-size: cover;
 }
@@ -430,7 +430,7 @@ p {
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
-    background: no-repeat url("./images/bg-shorten-mobile.svg"),
+    background: no-repeat url("images/bg-shorten-mobile.svg"),
       var(--Primary-Dark-Violet);
     background-size: cover;
     background-position: 2rem -3rem;
@@ -743,7 +743,7 @@ p.statistics__head--text {
 
 /* - - - - - Boost Section */
 .boost {
-  background: center no-repeat url("./images/bg-boost-desktop.svg"),
+  background: center no-repeat url("images/bg-boost-desktop.svg"),
     var(--Primary-Dark-Violet);
   background-size: cover;
   text-align: center;
@@ -764,7 +764,7 @@ p.statistics__head--text {
 
 @media screen and (max-width: 375px) {
   .boost {
-    background: center no-repeat url("./images/bg-boost-mobile.svg"),
+    background: center no-repeat url("images/bg-boost-mobile.svg"),
       var(--Primary-Dark-Violet);
     padding: 2rem 1rem;
     padding-bottom: 4rem;
